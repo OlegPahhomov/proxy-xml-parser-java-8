@@ -25,7 +25,7 @@ import static spark.Spark.*;
 
 public class MainStreams {
 
-    private static final String SERVICE_URL = "http://wsf.cdyne.com/WeatherWS/Weather.asmx ";
+    private static final String SERVICE_URL = "http://wsf.cdyne.com/WeatherWS/Weather.asmx";
     private static AtomicLong count = new AtomicLong();
     private static final String SECRET_KEY = "94304";
 
